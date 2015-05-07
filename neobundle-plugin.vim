@@ -27,12 +27,11 @@ NeoBundle 'Shougo/neomru.vim', {
   \ 'depends' : 'Shougo/unite.vim'
   \ }
 " complete
-if has('lua')
-    NeoBundleLazy 'Shougo/neocomplete.vim', {
-      \ 'depends' : 'Shougo/vimproc',
-      \ 'autoload' : { 'insert' : 1,}
-      \ }
-endif
+NeoBundleLazy 'Shougo/neocomplete.vim', {
+  \ 'depends' : 'Shougo/vimproc',
+  \ 'autoload' : { 'insert' : 1,}
+  \ }
+NeoBundle 'violetyk/neocomplete-php.vim'
 " yank
 NeoBundle 'LeafCage/yankround.vim'
 " white space
@@ -50,7 +49,6 @@ NeoBundle 'amirh/HTML-AutoCloseTag'
 NeoBundle 'tpope/vim-haml'
 NeoBundle 'mattn/emmet-vim'
 " ruby
-
 NeoBundle "tpope/vim-rails"
 NeoBundle "tpope/vim-rake"
 NeoBundle "tpope/vim-projectionist"

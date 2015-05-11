@@ -18,8 +18,13 @@ hi PmenuSel cterm=reverse ctermfg=33 ctermbg=222 gui=reverse guifg=#3399ff guibg
 let g:NERDTreeChDirMode=2
 let g:NERDTreeShowBookmarks=1
 let g:NERDTreeIgnore=['\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__']
+let g:NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$', '\.bak$', '\~$']
+let g:nerdtree_tabs_focus_on_files=1
 let g:NERDTreeWinSize = 20
 let g:NERDTreeMapOpenInTabSilent = '<RightMouse>'
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.db,*.sqlite
+nnoremap <silent> <F2> :NERDTreeFind<CR>
+noremap <F3> :NERDTreeToggle<CR>
 ""
 " NeoBundle "scrooloose/syntastic"
 let g:syntastic_error_symbol='✗'
@@ -30,14 +35,6 @@ let g:syntastic_aggregate_errors = 1
 let g:syntastic_enable_signs=1
 let g:syntastic_auto_loc_list=2
 let g:syntastic_mode_map = {'mode': 'passive'}
-augroup AutoSyntastic
-    autocmd!
-    autocmd InsertLeave,TextChanged * call s:syntastic()
-augroup END
-function! s:syntastic()
-    w
-    SyntasticCheck
-endfunction
 ""
 " NeoBundleLazy 'junegunn/vim-easy-align'
 vmap <Enter> <Plug>(EasyAlign)

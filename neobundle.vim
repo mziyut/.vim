@@ -15,9 +15,7 @@ let g:neobundle_default_git_protocol='https'
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " neobundle-plugin list
-if filereadable(expand("~/.vim/neobundle-plugin.vim"))
-    source ~/.vim/neobundle-plugin.vim
-endif
+source ~/.vim/neobundle-plugin.vim
 
 call neobundle#end()
 
@@ -27,7 +25,5 @@ filetype plugin indent on
 NeoBundleCheck
 
 " neobundle-config
-if filereadable(expand("~/.vim/neobundle-config.vim"))
-    source ~/.vim/neobundle-config.vim
-endif
+source ~/.vim/neobundle-config.vim
 

@@ -84,3 +84,10 @@ let g:airline_symbols.paste      = 'ρ'
 let g:airline_symbols.paste      = 'Þ'
 let g:airline_symbols.paste      = '∥'
 let g:airline_symbols.whitespace = 'Ξ'
+""
+" NeoBundle 'm2mdas/phpcomplete-extended'
+autocmd  FileType  php setlocal omnifunc=phpcomplete_extended#CompletePHP
+""
+" NeoBundle 'scrooloose/nerdtree'
+let NERDTreeShowHidden = 1
+autocmd VimEnter * execute 'NERDTree'

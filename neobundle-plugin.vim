@@ -1,5 +1,5 @@
 " Color Scheme
-NeoBundle 'tomasr/molokai'
+NeoBundle 'altercation/vim-colors-solarized'
 " File Brows
 NeoBundle 'scrooloose/nerdtree'
 " file Syntax Check

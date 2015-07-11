@@ -1,6 +1,7 @@
 ""
-" NeoBundle 'tomasr/molokai'
-colorscheme molokai
+" NeoBundle 'altercation/vim-colors-solarized'
+set background=dark
+colorscheme solarized
 if &term =~ "xterm-256color" || "screen-256color"
     set t_Co=256
     set t_Sf=[3%dm

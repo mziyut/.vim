@@ -41,7 +41,6 @@ NeoBundle 'airblade/vim-gitgutter'
 " airline
 NeoBundle 'bling/vim-airline'
 " php
-NeoBundle 'm2mdas/phpcomplete-extended'
 NeoBundle 'arnaud-lb/vim-php-namespace'
 " html
 NeoBundle 'gorodinskiy/vim-coloresque'

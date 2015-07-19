@@ -59,10 +59,6 @@ augroup configgroup
     autocmd FileType php setlocal tabstop=4
     autocmd FileType php setlocal shiftwidth=4
     autocmd FileType php setlocal softtabstop=4
-    autocmd FileType ruby setlocal tabstop=2
-    autocmd FileType ruby setlocal shiftwidth=2
-    autocmd FileType ruby setlocal softtabstop=2
-    autocmd FileType ruby setlocal commentstring=#\ %s
     autocmd FileType python setlocal commentstring=#\ %s
     autocmd BufEnter *.cls setlocal filetype=java
     autocmd BufEnter *.zsh-theme setlocal filetype=zsh

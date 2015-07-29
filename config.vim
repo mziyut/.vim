@@ -21,7 +21,7 @@ set bomb binary ttyfast
 " swp files
 set nobackup noswapfile
 " shell
-set fileformats=unix,dos,mac showcmd shell=/bin/sh
+set fileformats=unix showcmd shell=/bin/sh
 "" Color
 " common
 syntax on

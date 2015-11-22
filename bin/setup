@@ -1,0 +1,3 @@
+#!/bin/sh
+ln -sfn ~/Workspace/github.com/mziyut/.vim ~/.vim
+

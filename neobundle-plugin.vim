@@ -57,3 +57,5 @@ NeoBundle "thoughtbot/vim-rspec"
 NeoBundle "majutsushi/tagbar"
 " go
 NeoBundle "fatih/vim-go"
+" wakatime
+NeoBundle "wakatime/vim-wakatime"

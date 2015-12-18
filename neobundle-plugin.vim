@@ -42,6 +42,8 @@ NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'bling/vim-airline'
 " php
 NeoBundle 'm2mdas/phpcomplete-extended'
+NeoBundle 'm2mdas/phpcomplete-extended-laravel'
+NeoBundle 'm2mdas/phpcomplete-extended-symfony'
 NeoBundle 'arnaud-lb/vim-php-namespace'
 " html
 NeoBundle 'gorodinskiy/vim-coloresque'
@@ -59,3 +61,6 @@ NeoBundle "majutsushi/tagbar"
 NeoBundle "fatih/vim-go"
 " wakatime
 NeoBundle "wakatime/vim-wakatime"
+" TypeScript
+NeoBundle 'leafgarland/typescript-vim'
+NeoBundle 'clausreinke/typescript-tools'

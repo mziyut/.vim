@@ -40,6 +40,8 @@ NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'airblade/vim-gitgutter'
 " airline
 NeoBundle 'bling/vim-airline'
+" editorconfig
+NeoBundle 'editorconfig/editorconfig-vim'
 " php
 NeoBundle 'm2mdas/phpcomplete-extended'
 NeoBundle 'm2mdas/phpcomplete-extended-laravel'

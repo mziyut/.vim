@@ -43,9 +43,9 @@ NeoBundle 'bling/vim-airline'
 " editorconfig
 NeoBundle 'editorconfig/editorconfig-vim'
 " php
-NeoBundle 'm2mdas/phpcomplete-extended'
-NeoBundle 'm2mdas/phpcomplete-extended-laravel'
-NeoBundle 'm2mdas/phpcomplete-extended-symfony'
+"NeoBundle 'm2mdas/phpcomplete-extended'
+"NeoBundle 'm2mdas/phpcomplete-extended-laravel'
+"NeoBundle 'm2mdas/phpcomplete-extended-symfony'
 NeoBundle 'arnaud-lb/vim-php-namespace'
 " html
 NeoBundle 'gorodinskiy/vim-coloresque'
@@ -66,3 +66,5 @@ NeoBundle "wakatime/vim-wakatime"
 " TypeScript
 NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'clausreinke/typescript-tools'
+" jwalton512/vim-blade
+NeoBundle 'jwalton512/vim-blade'

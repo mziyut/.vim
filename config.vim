@@ -46,9 +46,22 @@ set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)
 let g:rubycomplete_buffer_loading = 1
 let g:rubycomplete_classes_in_global = 1
 let g:rubycomplete_rails = 1
-" rubcop
-let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': ['ruby'] }
+""
+" syntastic
+let g:syntastic_mode_map = {
+		\ 'mode': 'passive',
+		\ 'active_filetypes': [
+			\ 'ruby',
+			\ 'php',
+			\ 'javascript',
+		\ ]
+	\ }
+" ruby
 let g:syntastic_ruby_checkers = ['rubocop']
+" javascriptt
+let g:syntastic_javascript_checkers = ['jshint','eslint']
+" php
+let g:syntastic_php_checkers=['php','phpcs','phpmd']
 
 augroup configgroup
     autocmd!

@@ -36,8 +36,10 @@ let g:syntastic_style_error_symbol = '✗'
 let g:syntastic_style_warning_symbol = '⚠'
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_enable_signs=1
-let g:syntastic_auto_loc_list=2
-let g:syntastic_mode_map = {'mode': 'passive'}
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_quite_warnings=1
+let g:syntastic_check_on_open = 1
 ""
 " NeoBundleLazy 'junegunn/vim-easy-align'
 vmap <Enter> <Plug>(EasyAlign)
@@ -62,7 +64,9 @@ let g:neocomplete#lock_buffer_name_pattern = '\*ku\*'
 let g:neocomplete#sources#dictionary#dictionaries = {
 			\ 'default' : '',
 			\ 'vimshell' : $HOME.'/.vimshell_hist',
-			\ 'scheme' : $HOME.'/.gosh_completions'
+			\ 'scheme' : $HOME.'/.gosh_completions',
+			\ 'javascript' : '~/.vim/dict/javascript.dict',
+			\ 'php' : '~/.vim/dict/php.dict'
 			\ }
 " Define keyword.
 if !exists('g:neocomplete#keyword_patterns')

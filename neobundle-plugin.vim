@@ -68,3 +68,5 @@ NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'clausreinke/typescript-tools'
 " jwalton512/vim-blade
 NeoBundle 'jwalton512/vim-blade'
+" beyondwords/vim-twig
+NeoBundle 'beyondwords/vim-twig'

@@ -1,3 +1,4 @@
 #!/bin/sh
 ln -sfn ~/Workspace/github.com/mziyut/.vim ~/.vim
+ln -sfn ~/Workspace/github.com/mziyut/.vim/dict/.neocomplete-php ~/.neocomplete-php
 

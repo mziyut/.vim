@@ -40,6 +40,7 @@ NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'airblade/vim-gitgutter'
 " airline
 NeoBundle 'bling/vim-airline'
+NeoBundle 'vim-airline/vim-airline-themes'
 " editorconfig
 NeoBundle 'editorconfig/editorconfig-vim'
 " php

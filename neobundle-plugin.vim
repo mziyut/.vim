@@ -71,3 +71,5 @@ NeoBundle 'clausreinke/typescript-tools'
 NeoBundle 'jwalton512/vim-blade'
 " beyondwords/vim-twig
 NeoBundle 'beyondwords/vim-twig'
+" udalov/kotlin-vim
+NeoBundle 'udalov/kotlin-vim'

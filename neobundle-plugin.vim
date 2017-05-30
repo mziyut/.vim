@@ -32,7 +32,9 @@ NeoBundleLazy 'Shougo/neocomplete.vim', {
   \ 'autoload' : { 'insert' : 1,}
   \ }
 NeoBundle 'violetyk/neocomplete-php.vim'
-" yank
+" yank, snippet
+NeoBundle 'Shougo/neosnippet'
+NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'LeafCage/yankround.vim'
 " white space
 NeoBundle 'bronson/vim-trailing-whitespace'
@@ -48,12 +50,15 @@ NeoBundle 'editorconfig/editorconfig-vim'
 "NeoBundle 'm2mdas/phpcomplete-extended-laravel'
 "NeoBundle 'm2mdas/phpcomplete-extended-symfony'
 NeoBundle 'arnaud-lb/vim-php-namespace'
-" html
+" html, templete
 NeoBundle 'gorodinskiy/vim-coloresque'
 NeoBundle 'hail2u/vim-css3-syntax'
 NeoBundle 'amirh/HTML-AutoCloseTag'
 NeoBundle 'tpope/vim-haml'
 NeoBundle 'mattn/emmet-vim'
+NeoBundle 'jwalton512/vim-blade'
+NeoBundle 'slim-template/vim-slim'
+NeoBundle 'beyondwords/vim-twig'
 " ruby
 NeoBundle "tpope/vim-rails"
 NeoBundle "tpope/vim-rake"
@@ -67,9 +72,5 @@ NeoBundle "wakatime/vim-wakatime"
 " TypeScript
 NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'clausreinke/typescript-tools'
-" jwalton512/vim-blade
-NeoBundle 'jwalton512/vim-blade'
-" beyondwords/vim-twig
-NeoBundle 'beyondwords/vim-twig'
-" udalov/kotlin-vim
+" kotlin
 NeoBundle 'udalov/kotlin-vim'

@@ -4,28 +4,36 @@
 
 ### clone
 
-```
+```sh
 $ git clone git@github.com:mziyut/.vim.git ~/.vim
 ```
 
 ### copy default file
 
-```
-$ cp ~/.vim/.vimrc.default ~/.vimrc
+```sh
+$ ./bin/setup
 ```
 
 ### launch vim
 
+```sh
+$ vim +PlugInstall
 ```
-$ vim
+
+## MEMO
+
+### create dictonary file
+
+```sh
+$ ./bin/make_dict
 ```
 
-## dependency
+### golang support
+```sh
+vim +:GoInstallBinaries
+```
 
-### golang
-+ gocode, godef, goimports
-	+ `vim +:GoInstallBinaries`
-
-### typescript
-+ typescript-tools
-	+ `npm install -g typescript-tools`
+### typescript support
+```sh
+`npm install -g typescript-tools
+```

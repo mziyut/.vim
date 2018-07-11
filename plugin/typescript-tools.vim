@@ -1,0 +1,1 @@
+Plug 'clausreinke/typescript-tools'

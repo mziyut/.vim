@@ -1,1 +1,1 @@
-Plug 'clausreinke/typescript-tools'
+Plug 'clausreinke/typescript-tools.vim', { 'do': 'npm install'  }
